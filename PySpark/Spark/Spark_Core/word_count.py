@@ -1,7 +1,6 @@
 from pyspark import SparkContext
 
 import zipfile
-import io
 
 sc = SparkContext("local[*]","Word Analysis")
 
