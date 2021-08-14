@@ -10,3 +10,10 @@ current_year = todays_date.year
 
 age = current_year - int(birth_year)
 print(f"your age is {age}")
+
+
+def understanding_variable_number_arguments(*values):
+    tmp = 0
+    for item in values:
+        print(item)
+    return tmp
